@@ -4,13 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Fix Button.css">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Setup for npm to publish">
+      <change afterPath="$PROJECT_DIR$/storybook-static/161528bb6c25115b3f83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/260.9ae15c81.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/294.c99262e0.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/2dbc69731c3f9930a271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/384.80e2ee81.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/384.80e2ee81.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/384.80e2ee81.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/414.71815698.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/488.38214d60.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/488.38214d60.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/488.38214d60.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/62.8ccb1c9e.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/726.6442e379.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/7a58d2cb9a6358f85e9b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/9335a1a91b80ad4fec70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/981.fe03bb3a.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/c720ced26387af8a9cb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/e93de094692245f1ec04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/f7d8b9a8cec7528e0e36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/main.9e91ccf7.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.a55ceb26.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/chromatic-com-storybook-10/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/chromatic-com-storybook-10/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-actions-4/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-actions-4/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-backgrounds-5/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-controls-3/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-controls-3/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-measure-8/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-outline-9/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-toolbars-7/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/essentials-viewport-6/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/interactions-11/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/interactions-11/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/links-2/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/links-2/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/onboarding-1/manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/onboarding-1/manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/storybook-core-server-presets-0/common-manager-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-addons/storybook-core-server-presets-0/common-manager-bundle.js.LEGAL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-common-assets/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-common-assets/nunito-sans-bold-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-common-assets/nunito-sans-bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-common-assets/nunito-sans-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-common-assets/nunito-sans-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/WithTooltip-Y7J54OF7-3AIPQNGM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-SKHMP7FK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-TZAR34JC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-UOBNU442.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-VMGB76WP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-XL76U7S4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/chunk-XP3HGWTR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/formatter-B5HCVTEV-7DCBOGO6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/globals-module-info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/globals-runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-manager/syntaxhighlighter-JOJW2KGS-7BF26SBB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-preview/globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/sb-preview/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/css/stories-components-button-Button-stories.e79be2e8.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/css/stories-components-button-Button-stories.e79be2e8.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/media/discord.bd319a533c65438b56007d289ff12ddd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/media/github.0366d3dfd1fd4c4d82b7b53486f11763.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/media/tutorials.dc623e0dfe3ce822c631eec5718f6bfc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/media/youtube.9ab9c849378b2a4a74e1b6a6d0cf70cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/stories-Configure-mdx.d4d643b4.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/stories-Configure-mdx.d4d643b4.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/stories-components-button-Button-stories.a1d02a45.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/stories-components-button-Button-stories.a1d02a45.iframe.bundle.js.LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,43 +148,56 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build-storybook.executor": "Run",
-    "npm.install-packages.executor": "Run",
-    "npm.package-install.executor": "Run",
-    "npm.package-uninstall.executor": "Run",
-    "npm.package.executor": "Run",
-    "npm.postinstall.executor": "Run",
-    "npm.start.executor": "Run",
-    "npm.storybook.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\072789\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.NPM.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build-storybook.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install-packages.executor&quot;: &quot;Run&quot;,
+    &quot;npm.package-install.executor&quot;: &quot;Run&quot;,
+    &quot;npm.package-uninstall.executor&quot;: &quot;Run&quot;,
+    &quot;npm.package.executor&quot;: &quot;Run&quot;,
+    &quot;npm.postinstall.executor&quot;: &quot;Run&quot;,
+    &quot;npm.publish.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;npm.storybook.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\072789\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\072789\Documents\Github-Personal\Storybook-IN" />
       <recent name="C:\Users\072789\Documents\Github-Personal\Storybook-IN\src\stories\components\Button" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.publish">
+    <configuration name="NPM" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="NPM" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build-storybook" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -173,6 +268,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="publish" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="publish" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -231,7 +336,8 @@
       <workItem from="1712151271813" duration="4678000" />
       <workItem from="1712306560439" duration="863000" />
       <workItem from="1712308034384" duration="114000" />
-      <workItem from="1712308161691" duration="6578000" />
+      <workItem from="1712308161691" duration="8335000" />
+      <workItem from="1712316660243" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -281,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712313781055</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Setup for npm to publish">
+      <option name="closed" value="true" />
+      <created>1712314871044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712314871044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +419,8 @@
     <MESSAGE value="Add Tailwind to project" />
     <MESSAGE value="Add Storybook to project and create a first button element" />
     <MESSAGE value="Fix Button.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Button.css" />
+    <MESSAGE value="Setup for npm to publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup for npm to publish" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -1,12 +1,10 @@
 {
-  "name": "storybook-in",
-  "version": "0.1.0",
-  "private": true,
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "name": "@CasualAnouar/storybook-in",
+  "version": "0.1.2",
+  "private": false,
+  "main": "storybook-static/index.html",
   "files": [
-    "dist"
+    "storybook-static"
   ],
   "dependencies": {
     "@emotion/react": "^11.11.4",
