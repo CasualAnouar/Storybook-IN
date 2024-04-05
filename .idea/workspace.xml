@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Create a new react app">
+    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Add Tailwind to project">
+      <change afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +24,31 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CasualAnouar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CasualAnouar/Storybook-IN.git&quot;,
+    &quot;accountId&quot;: &quot;6db1473a-f8ef-4116-bf7e-97621c252310&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,6 +60,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2eaV7e6dIevERbbZhAgWo149i3d" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,21 +71,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.build-storybook.executor": "Run",
     "npm.install-packages.executor": "Run",
+    "npm.package-install.executor": "Run",
+    "npm.package-uninstall.executor": "Run",
     "npm.package.executor": "Run",
+    "npm.postinstall.executor": "Run",
     "npm.start.executor": "Run",
     "npm.storybook.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -68,7 +105,7 @@
       <recent name="C:\Users\072789\Documents\Github-Personal\Storybook-IN\src\stories\components\Button" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.package">
+  <component name="RunManager" selected="npm.package-uninstall">
     <configuration name="build-storybook" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,11 +126,41 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="package-install" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="package-install" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="package-uninstall" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="package-uninstall" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="package" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="package" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="postinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="postinstall" />
       </scripts>
       <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
       <envs />
@@ -119,16 +186,29 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/AppData/Roaming/nvm/v20.11.1/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.package-install" />
+        <item itemvalue="npm.postinstall" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-jbrsdk-17.0.9-4caba194b151-b614c381" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -141,7 +221,10 @@
       <option name="presentableId" value="Default" />
       <updated>1712142513755</updated>
       <workItem from="1712142517010" duration="5290000" />
-      <workItem from="1712151271813" duration="201000" />
+      <workItem from="1712151271813" duration="4678000" />
+      <workItem from="1712306560439" duration="863000" />
+      <workItem from="1712308034384" duration="114000" />
+      <workItem from="1712308161691" duration="4255000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -167,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712151181254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Tailwind to project">
+      <option name="closed" value="true" />
+      <created>1712151508755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712151508755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,9 +276,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Create a new react app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a new react app" />
+    <MESSAGE value="Add Tailwind to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Tailwind to project" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
