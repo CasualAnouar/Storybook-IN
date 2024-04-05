@@ -1,6 +1,6 @@
 {
-  "name": "@CasualAnouar/storybook-in",
-  "version": "0.1.2b",
+  "name": "@casper25/storybook-in",
+  "version": "0.1.3",
   "private": false,
   "main": "storybook-static/index.html",
   "files": [
