@@ -18,6 +18,16 @@
     gap: 8px;
     border-radius: 8px 8px 8px 8px;
 }
+.storybook-button--primary:hover {
+    background-color: #D51568;
+    border: 1px solid #D51568;
+}
+.storybook-button--primary:focus {
+    box-shadow: 0 0 0 1px #D51568;
+    outline: none;
+    background-color: #EA287C;
+    border: 1px solid #EA287C;
+}
 .storybook-button--secondary {
     color: #EA287C;
     background-color: #FFF6FA;
@@ -29,6 +39,16 @@
     gap: 8px;
     border-radius: 8px 8px 8px 8px;
 }
+.storybook-button--secondary:hover {
+    background-color: #FCE3ED;
+    border: 1px solid #FCE3ED;
+}
+.storybook-button--secondary:focus {
+    box-shadow: 0 0 0 1px #EA287C;
+    outline: none;
+    background-color: #FFF6FA;
+    border: 1px solid #FFF6FA;
+}
 .storybook-button--tertiary {
     color: black;
     background-color: #F7F7FC;
@@ -39,6 +59,16 @@
     padding: 10px 16px 10px 16px;
     gap: 8px;
     border-radius: 8px 8px 8px 8px;
+}
+.storybook-button--tertiary:hover {
+    background-color: #EAEAF2;
+    border: 1px solid #EAEAF2;
+}
+.storybook-button--tertiary:focus {
+    box-shadow: 0 0 0 1px #EAEAF2;
+    outline: none;
+    background-color: #F2F4F7;
+    border: 1px solid #F2F4F7;
 }
 .storybook-button--small {
     font-size: 12px;

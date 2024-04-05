@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Add Tailwind to project">
-      <change afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.stories.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/components/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b038f04f-6753-4a0f-b4c3-59c7ab81dda7" name="Changes" comment="Add Storybook to project and create a first button element">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/components/button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/components/button/Button.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +216,7 @@
       <workItem from="1712151271813" duration="4678000" />
       <workItem from="1712306560439" duration="863000" />
       <workItem from="1712308034384" duration="114000" />
-      <workItem from="1712308161691" duration="4255000" />
+      <workItem from="1712308161691" duration="5269000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -258,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712151508755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Storybook to project and create a first button element">
+      <option name="closed" value="true" />
+      <created>1712312684202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712312684202</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +280,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Create a new react app" />
     <MESSAGE value="Add Tailwind to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Tailwind to project" />
+    <MESSAGE value="Add Storybook to project and create a first button element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Storybook to project and create a first button element" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
